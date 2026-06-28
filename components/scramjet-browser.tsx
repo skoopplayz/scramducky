@@ -251,10 +251,14 @@ export function ScramjetBrowser() {
 
               {status === "ready" && !hasNavigated && (
                 <>
-                  <div className="mx-auto mb-4 flex size-12 items-center justify-center rounded-full bg-primary/10">
-                    <Shield className="size-6 text-primary" />
-                  </div>
-                  <h2 className="text-balance text-lg font-semibold">Ready to browse</h2>
+                  <div className="mx-auto mb-4 flex h-[250px] w-[250px] items-center justify-center">
+  <img 
+    src="./ducky.png" 
+    alt="Logo" 
+    className="h-full w-full object-contain"
+  />
+</div>
+                  <h2 className="text-balance text-lg font-semibold">Search the pond...</h2>
                   <p className="mt-1 text-pretty text-sm text-muted-foreground">
                     Enter a URL or search above to load a page through the proxy.
                   </p>
