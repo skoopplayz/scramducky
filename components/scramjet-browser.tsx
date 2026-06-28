@@ -263,7 +263,7 @@ export function ScramjetBrowser() {
             <Input
               value={address}
               onChange={(e) => setAddress(e.target.value)}
-              placeholder="Search or enter a website address"
+              placeholder="Search the pond..."
               aria-label="Address bar"
               spellCheck={false}
               autoComplete="off"
@@ -271,11 +271,6 @@ export function ScramjetBrowser() {
               disabled={disabled}
             />
           </form>
-                  
-                  <h2 className="text-balance text-lg font-semibold">Search the pond...</h2>
-                  <p className="mt-1 text-pretty text-sm text-muted-foreground">
-                    Enter a URL or search above to load a page through the proxy.
-                  </p>
                 </>
               )}
             </div>
