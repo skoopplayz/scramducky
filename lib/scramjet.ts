@@ -126,7 +126,7 @@ export function toNavigableUrl(input: string): string {
   if (/^https?:\/\//i.test(trimmed)) return trimmed
   const looksLikeDomain = /^[^\s]+\.[^\s]+$/.test(trimmed) && !trimmed.includes(" ")
   if (looksLikeDomain) return `https://${trimmed}`
-  return `https://www.google.com/search?q=${encodeURIComponent(trimmed)}`
+  return `https://duckduckgo.com/?q=${encodeURIComponent(trimmed)}`
 }
 
 /** Ensure the Wisp URL ends with a trailing slash and uses ws(s). */
