@@ -253,7 +253,7 @@ export function ScramjetBrowser() {
                 <>
                   <div className="mx-auto mb-4 flex h-[250px] w-[250px] items-center justify-center">
   <img 
-    src="./ducky.png" 
+    src="https://github.com/skoopplayz/scramducky/blob/a333f58933af35c0a7061f89275e4827da9cfe19/components/ducky.png" 
     alt="Logo" 
     className="h-full w-full object-contain"
   />
